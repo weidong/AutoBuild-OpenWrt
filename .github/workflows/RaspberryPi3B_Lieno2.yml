@@ -5,15 +5,15 @@
 # Youtube Channel: https://goo.gl/fvkdwm 
 #=================================================
 
-name: Build_RaspberryPi3B
+name: Build_RaspberryPi3B2
 
 on: 
   release:
     types: [published]
 
-  #push:
-  #  branches: 
-  #    - dev-19.07
+  push:
+    branches: 
+      - dev-19.07
 
   #schedule:
   #  - cron: 0 8 * * 5
