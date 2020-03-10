@@ -13,7 +13,7 @@ on:
 
   #push:
   #  branches: 
-  #    - master
+  #    - dev-19.07
 
   #schedule:
   #  - cron: 0 8 * * 5
@@ -76,7 +76,7 @@ jobs:
     #    git clone https://github.com/Lienol/openwrt-package package/lienol
     #    git clone "your_github_link" package/"your_folder_name"      
 
-    - name: Configuration Customization - Build_x86_64
+    - name: Configuration Customization - Build_RaspberryPi3B
       env:
         CONFIG_FILE: 'RaspberryPi3B.config'
       run: |
