@@ -76,9 +76,9 @@ jobs:
     #    git clone https://github.com/Lienol/openwrt-package package/lienol
     #    git clone "your_github_link" package/"your_folder_name"      
 
-    - name: Configuration Customization - Build_RaspberryPi3B_Lieno
+    - name: Configuration Customization - Build_Lieno_RP3B
       env:
-        CONFIG_FILE: 'RaspberryPi3B.config'
+        CONFIG_FILE: 'Lienol_RP3B.config'
       run: |
         [ -e $CONFIG_FILE ] && mv $CONFIG_FILE openwrt/.config
         chmod +x ./customize.sh && ./customize.sh
