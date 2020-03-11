@@ -5,7 +5,7 @@
 # Youtube Channel: https://goo.gl/fvkdwm 
 #=================================================
 
-name: Build_RaspberryPi3B
+name: Build_Lieno_RP3B
 
 on: 
   release:
